@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>BuildMachineOSBuild</key>
+	<string>12F45</string>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>English</string>
+	<key>CFBundleExecutable</key>
+	<string>Unity Web Player</string>
+	<key>CFBundleGetInfoString</key>
+	<string>Unity Web Player version 5.3.5f1. (c) 2016 Unity Technologies ApS. All rights reserved.</string>
+	<key>CFBundleIdentifier</key>
+	<string>com.unity.UnityWebPlayer</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>UnityWebPlayer</string>
+	<key>CFBundlePackageType</key>
+	<string>MOSS</string>
+	<key>CFBundleShortVersionString</key>
+	<string>UnityPlayer version 5.3.5f1</string>
+	<key>CFBundleSignature</key>
+	<string>BRPL</string>
+	<key>CFBundleVersion</key>
+	<string>5.3.5f1</string>
+	<key>DTCompiler</key>
+	<string>com.apple.compilers.llvm.clang.1_0</string>
+	<key>DTPlatformBuild</key>
+	<string>5B1008</string>
+	<key>DTPlatformVersion</key>
+	<string>GM</string>
+	<key>DTSDKBuild</key>
+	<string>10K549</string>
+	<key>DTSDKName</key>
+	<string>macosx10.6</string>
+	<key>DTXcode</key>
+	<string>0511</string>
+	<key>DTXcodeBuild</key>
+	<string>5B1008</string>
+	<key>UnityBuildNumber</key>
+	<string>960ebf59018a</string>
+	<key>WebPluginDescription</key>
+	<string>Unity Web Player version 5.3.5f1. (c) 2016 Unity Technologies ApS. All rights reserved.</string>
+	<key>WebPluginMIMETypes</key>
+	<dict>
+		<key>application/vnd.unity</key>
+		<dict>
+			<key>WebPluginExtensions</key>
+			<array>
+				<string>unity3d</string>
+			</array>
+			<key>WebPluginTypeDescription</key>
+			<string>Unity Player</string>
+		</dict>
+	</dict>
+	<key>WebPluginName</key>
+	<string>Unity Player</string>
+</dict>
+</plist>

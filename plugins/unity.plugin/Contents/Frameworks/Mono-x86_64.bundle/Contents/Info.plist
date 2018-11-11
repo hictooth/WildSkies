@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>English</string>
+	<key>CFBundleExecutable</key>
+	<string>Mono</string>
+	<key>CFBundleGetInfoString</key>
+	<string>Mono version 4.6.6f2. (c) 2014 Unity Technologies ApS. All rights reserved.</string>
+	<key>CFBundleIdentifier</key>
+	<string>com.OverTheEdge.MonoBundle</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>Mono</string>
+	<key>CFBundlePackageType</key>
+	<string>BNDL</string>
+	<key>CFBundleShortVersionString</key>
+	<string>Mono version 4.6.6f2</string>
+	<key>CFBundleSignature</key>
+	<string>????</string>
+	<key>CFBundleVersion</key>
+	<string>4.6.6f2</string>
+	<key>UnityBuildNumber</key>
+	<string>ab0b38d96363</string>
+</dict>
+</plist>

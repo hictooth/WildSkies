@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>English</string>
+	<key>CFBundleExecutable</key>
+	<string>UnityPlayer</string>
+	<key>CFBundleGetInfoString</key>
+	<string>UnityWebPlayer version 4.6.6f2. (c) 2014 Unity Technologies ApS. All rights reserved.</string>
+	<key>CFBundleIdentifier</key>
+	<string>dk.otee.UnityWebPlayerCore</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>UnityPlayer</string>
+	<key>CFBundlePackageType</key>
+	<string>MOSS</string>
+	<key>CFBundleShortVersionString</key>
+	<string>UnityPlayer version 4.6.6f2</string>
+	<key>CFBundleSignature</key>
+	<string>BRPL</string>
+	<key>CFBundleVersion</key>
+	<string>4.6.6f2</string>
+	<key>UnityBuildNumber</key>
+	<string>ab0b38d96363</string>
+</dict>
+</plist>
