@@ -19,5 +19,8 @@
   "author": "hictooth",
   "devDependencies": {
     "electron-prebuilt": "0.31.2"
+  },
+  "dependencies": {
+    "express": "^4.16.4"
   }
 }
