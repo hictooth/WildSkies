@@ -2,8 +2,7 @@ var app = require('app')
 var BrowserWindow = require('browser-window')
 var path = require('path')
 
-app.commandLine.appendSwitch('disable-smooth-scrolling');
-app.commandLine.appendSwitch('--enable-file-cookies');
+app.commandLine.appendSwitch('disable-smooth-scrolling')
 
 var mainWindow = null
 
@@ -21,19 +20,19 @@ app.on('ready', function() {
     'web-preferences': {
       plugins: true,
       'extra-plugin-dirs': [__dirname + '/plugins/', __dirname + '/plugins/' + pluginName]
-    }
-  });
+    },
+    'auto-hide-menu-bar': true
+  })
 
   // Open the DevTools.
-  mainWindow.webContents.openDevTools();
+  mainWindow.webContents.openDevTools()
 
   // and load the index.html of the app.
-  mainWindow.loadUrl('file://' + __dirname + '/index.html');
-  //mainWindow.loadUrl('https://web.archive.org/web/*/http://www.cartoonnetwork.com/games/dragons/wild-skies/index.html')
+  mainWindow.loadUrl('file://' + __dirname + '/client/index.html')
 
   // Emitted when the window is closed.
   mainWindow.on('closed', function() {
-    mainWindow = null;
-    app.quit();
-  });
-});
+    mainWindow = null
+    app.quit()
+  })
+})

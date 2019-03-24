@@ -19,8 +19,5 @@
   "author": "hictooth",
   "devDependencies": {
     "electron-prebuilt": "0.31.2"
-  },
-  "dependencies": {
-    "npm": "^6.0.0"
   }
 }

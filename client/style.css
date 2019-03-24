@@ -11,8 +11,14 @@ body {
   overflow: auto;
 }
 
-embed {
+/*embed {
   display: block;
+  width: 900px;
+  height: 600px;
+}*/
+
+#game-swf {
+  background-image: url('./background.png');
   width: 900px;
   height: 600px;
 }
