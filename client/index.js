@@ -18,7 +18,7 @@ var path = require('path')
 var registry = require('../windows/registry.js')
 
 // show the dev tools
-gui.Window.get().showDevTools()
+//gui.Window.get().showDevTools()
 
 // resize the window accordingly
 if (process.platform === 'win32') {
