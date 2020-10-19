@@ -12,7 +12,8 @@ var nw = new NwBuilder({
     buildDir: '../build',
     cacheDir: '../cache',
     macIcns: './mac.icns',
-    winIco: './windows.ico'
+    winIco: './windows.ico',
+    zip: false
 })
 
 // Log stuff you want
