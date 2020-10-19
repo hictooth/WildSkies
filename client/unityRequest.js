@@ -25,20 +25,20 @@
  */
 
 function UnityRequest(go_name, responce_func, request_name, request_param ) {
-  var response = null
+    var response = null
 
 	if (request_name == "isLoggedIn") {
-    // checking whether the user is logged in - hard code this to yes
+        // checking whether the user is logged in - hard code this to yes
 		response = "LOGGED"
 	} else if (request_name == "checkAuthorization") {
-    // checking whether the user is authorized - hard code this to yes
-    response = "AUTHORIZED"
+        // checking whether the user is authorized - hard code this to yes
+        response = "AUTHORIZED"
 	} else if ( request_name == "readCookie" ) {
-    // get value of cookie (for sending to the saves server) - hard code values
+        // get value of cookie (for sending to the saves server) - hard code values
 		response = request_param[0] + "=7624"
 	}
 
-  if (response != null) {
-    _cnglobal.unityObj.getUnity().SendMessage(go_name, responce_func, response)
-  }
+    if (response != null) {
+        _cnglobal.unityObj.getUnity().SendMessage(go_name, responce_func, response)
+    }
 }

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data>
+	<language>EN</language>
+	<server-configuration>
+		<!--<server-base-address>http://www.cartoonnetwork.com/dragonsvc/v2/user/dragons/</server-base-address>-->
+		<server-base-address>http://127.0.0.1:$SERVER_PORT/www.cartoonnetwork.com/dragonsvc/v2/user/dragons/</server-base-address>
+		<!--
+		Leave it empty to use Application.dataPath + "/" or set the address where the game assets are stored on.
+		Must end with a backslash (/).
+		Game intro will be loaded from <data-path> + "intro.ogg" (it needs to be an Ogg Theora video, and the extension needs to be ogg and not ogv
+		or Unity will not properly stream it).
+		-->
+		<data-path>
+		<!--http://i.cdn.turner.com/toon/games/dragons/wild-skies/assets/-->
+		http://127.0.0.1:$SERVER_PORT/i.cdn.turner.com/toon/games/dragons/wild-skies/assets/
+		</data-path>
+		<min-delay-between-saves>30</min-delay-between-saves>
+	</server-configuration>
+	<dlcs>
+		<dlc>
+			<id>1</id>
+			<enabled>true</enabled>
+		</dlc>
+		<dlc>
+			<id>2</id>
+			<enabled>true</enabled>
+		</dlc>
+		<dlc>
+			<id>3</id>
+			<enabled>true</enabled>
+		</dlc>
+		<dlc>
+			<id>4</id>
+			<enabled>true</enabled>
+		</dlc>
+		<dlc>
+			<id>5</id>
+			<enabled>true</enabled>
+		</dlc>
+		<dlc>
+			<id>6</id>
+			<enabled>true</enabled>
+		</dlc>
+		<dlc>
+			<id>7</id>
+			<enabled>true</enabled>
+		</dlc>
+		<dlc>
+			<id>8</id>
+			<enabled>true</enabled>
+		</dlc>
+		<dlc>
+			<id>9</id>
+			<enabled>true</enabled>
+		</dlc>
+		<dlc>
+			<id>10</id>
+			<enabled>true</enabled>
+		</dlc>
+		<dlc>
+			<id>11</id>
+			<enabled>true</enabled>
+		</dlc>
+	</dlcs>
+</data>

@@ -1,26 +1,33 @@
 {
-  "name": "wildskies",
-  "version": "1.0.0",
-  "description": "DreamWorks Dragons Wild Skies - Offline",
-  "main": "main.js",
-  "scripts": {
-    "start": "electron ."
-  },
-  "repository": "https://github.com/hictooth/wildskies",
-  "keywords": [
-    "dreamworks",
-    "wildskies",
-    "dragons",
-    "httyd",
-    "train your dragon",
-    "cartoon network",
-    "game"
-  ],
-  "author": "hictooth",
-  "devDependencies": {
-    "electron-prebuilt": "0.31.2"
-  },
-  "dependencies": {
-    "express": "^4.16.4"
-  }
+    "name": "WildSkies",
+    "version": "2.0.1",
+    "description": "An offline wrapper app for DreamWorks Dragons: Wild Skies",
+    "main": "client/index.html",
+    "author": "hictooth <hictooth@hictooth.com> (http://hictooth.com/WildSkies)",
+    "window": {
+        "title": "Wild Skies Offline",
+        "icon": "client/favicon.png",
+        "plugin": true,
+        "toolbar": false,
+        "width": 906,
+        "height": 629,
+        "resizable": false
+    },
+    "webkit": {
+        "plugin": true
+    },
+    "license": "GPL-3.0-or-later",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/hictooth/WildSkies"
+    },
+    "keywords": [
+        "dreamworks",
+        "wildskies",
+        "dragons",
+        "httyd",
+        "train your dragon",
+        "cartoon network",
+        "game"
+    ]
 }

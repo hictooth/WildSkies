@@ -1,3 +1,8 @@
+@font-face {
+  font-family: 'FrizQuadrata';
+  src: url('FrizQuadrataTT.ttf')  format('truetype');
+}
+
 html {
   height: 100%;
   width: 100%;
@@ -11,14 +16,21 @@ body {
   overflow: auto;
 }
 
-/*embed {
-  display: block;
-  width: 900px;
-  height: 600px;
-}*/
-
 #game-swf {
   background-image: url('./background.png');
   width: 900px;
   height: 600px;
+}
+
+#game-swf embed {
+    display: none;
+}
+
+#temp-credits {
+    font-family: 'FrizQuadrata';
+    position: absolute;
+    top: 400px;
+    left: 0px;
+    width: 100%;
+    text-align: center;
 }
