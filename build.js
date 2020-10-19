@@ -8,9 +8,9 @@ var nw = new NwBuilder({
     flavour: 'normal',
     platforms: ['osx64', 'win32'],
     appName: 'Wild Skies',
-    appVersion: '2.0.0',
-    buildDir: './build',
-    cacheDir: './cache',
+    appVersion: '2.0.1',
+    buildDir: '../build',
+    cacheDir: '../cache',
     macIcns: './mac.icns',
     winIco: './windows.ico'
 })
