@@ -33,7 +33,9 @@ var saveFile = path.join(gui.App.dataPath, 'gamedata.json')
 // little function for updaing text on splash screen
 function updateStatus(text) {
     console.log(text)
-    document.getElementById('status').innerText = text
+    if (!!document.getElementById('status')) {
+        document.getElementById('status').innerText = text
+    }
 }
 
 // check the requirements have been met

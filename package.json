@@ -1,11 +1,12 @@
 {
     "name": "WildSkies",
-    "version": "2.0.1",
+    "version": "2.0.2",
     "description": "An offline wrapper app for DreamWorks Dragons: Wild Skies",
     "main": "client/index.html",
-    "author": "hictooth <hictooth@hictooth.com> (http://hictooth.com/WildSkies)",
+    "author": "hictooth <hictooth@hictooth.com> (http://github.com/hictooth/WildSkies)",
+    "chromium-args": "--enable-logging=stderr",
     "window": {
-        "title": "Wild Skies Offline",
+        "title": "Wild Skies",
         "icon": "client/favicon.png",
         "plugin": true,
         "toolbar": false,
