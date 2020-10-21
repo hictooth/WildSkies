@@ -5,16 +5,20 @@ An offline version for _DreamWorks Dragons: Wild Skies_
   <img src="./wildskies.jpg" />
 </p>
 
+----
+
+**Update 2020-10-21: Fixed bug where game would crash during training of Deadly Nadder during tutorial.**
+
 ## Getting Started
 First note that while this works well on Windows, it **does not work on macOS 10.12 and above!**. You can learn more on this see [this bug page](MAC.md).
 
-Download the zip for either [Windows](https://github.com/hictooth/WildSkies/releases/download/v2.0.1/WildSkiesWindows.zip) or [Mac](https://github.com/hictooth/WildSkies/releases/download/v2.0.1/WildSkiesMac.zip). On Windows, extract it somewhere, and run `WildSkies.exe`. On Mac, extract it and then run `WildSkies.app`.
+Download the zip for either [Windows](https://github.com/hictooth/WildSkies/releases/latest/download/WildSkiesWindows.zip) or [Mac](https://github.com/hictooth/WildSkies/releases/latest/download/WildSkiesMac.zip). On Windows, extract it somewhere, and run `WildSkies.exe`. On Mac, extract it and then run `WildSkies.app`.
 
 On Mac, you'll probably have to right-click on the app, and choose _Open_, due to the app not being signed.
 
 On Windows, you might be asked to allow a program past your firewall - this is to support saving and loading. You can actually deny this and it'll work just as well.
 
-And that's it - you should see a window open and the game will load. Game progress is automatically saved as you progress, so you can just quit it, and then open the app again to resume. 
+And that's it - you should see a window open and the game will load. Game progress is automatically saved as you progress, so you can just quit it, and then open the app again to resume.
 
 ## A little history
 
