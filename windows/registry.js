@@ -19,6 +19,8 @@ function modifyRegistry () {
     // create the entry, overwriting if necessary
     var pluginDirectory = path.join(rootdir.rootdir, 'windows', 'WebPlayer')
     var res = child_process.spawnSync('reg', ['add', WILDSKIES_REGISTRY_PATH, '/f', '/v', KEY, '/t', TYPE, '/d', pluginDirectory])
-    var success = res.status === 0
-    return success
+    return {
+        success: res.status === 0,
+        errorMessage: res.stderr.toString()
+    }
 }

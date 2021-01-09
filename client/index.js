@@ -55,8 +55,8 @@ if (!unityFound) {
 
     // update the registry value so Unity knows where the plugin is
     var res = registry.modifyRegistry()
-    if (!res) {
-        updateStatus('Error: Couldn\'t update registry value')
+    if (!res.success) {
+        updateStatus('Error: Couldn\'t update registry value: ' + res.errorMessage)
     } else {
 
         // start the server
