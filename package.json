@@ -1,6 +1,6 @@
 {
     "name": "WildSkies",
-    "version": "2.0.3",
+    "version": "2.0.4",
     "description": "An offline wrapper app for DreamWorks Dragons: Wild Skies",
     "main": "client/index.html",
     "author": "hictooth <hictooth@hictooth.com> (http://github.com/hictooth/WildSkies)",

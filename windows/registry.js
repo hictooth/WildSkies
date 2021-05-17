@@ -21,6 +21,6 @@ function modifyRegistry () {
     var res = child_process.spawnSync('reg', ['add', WILDSKIES_REGISTRY_PATH, '/f', '/v', KEY, '/t', TYPE, '/d', pluginDirectory])
     return {
         success: res.status === 0,
-        errorMessage: res.stderr.toString()
+        errorMessage: res.stderr ? res.stderr.toString() : 'No message on stderr'
     }
 }
