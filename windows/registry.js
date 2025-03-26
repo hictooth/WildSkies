@@ -14,7 +14,10 @@ var TYPE = 'REG_SZ'
 
 function modifyRegistry () {
     if (process.platform !== 'win32') {
-        return true
+        return {
+            success: true,
+            errorMessage: 'Not Windows'
+        }
     }
     // create the entry, overwriting if necessary
     var pluginDirectory = path.join(rootdir.rootdir, 'windows', 'WebPlayer')
